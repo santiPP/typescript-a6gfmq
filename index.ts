@@ -2,9 +2,6 @@
 import './style.css';
 
 // Write TypeScript code!
-const appDiv: HTMLElement = document.getElementById('app');
-appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
-
 class Persona {
   private nombre: string;
   private edad: number;
@@ -47,3 +44,7 @@ persona.setEdad(45);
 
 console.log(persona.getNombre()); // Jorge
 console.log(persona.getEdad()); // 45
+
+const appDiv: HTMLElement = document.getElementById('app');
+appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
+
